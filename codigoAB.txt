@@ -14,7 +14,7 @@ public class Pfinal {
 
         for (int i = 1; i <= kilos; i++) {
             elemento=i;
-            if (i<kilos) {
+            if (elemento<kilos) {
                 elemento = elemento + 1;
                  if (Servicio.equals("LAgua")) costo = elemento * 5;
                  else if (Servicio.equals("LSeco")) costo = elemento * 7;
